@@ -13,7 +13,17 @@ int Prompt(string message)
 int N;
 N = Prompt ("Введите число ");
  
- for (int i = -N; i <= N; i++)
+ for (int i = N; i <= N; i++)
 {
     System.Console.WriteLine(i);
 }
+
+//System.Console.WriteLine("Введите число ");
+//string Value = Console.ReadLine();
+//int number = int.Parse (value);
+//int result = -(number + 1);
+//while (result !-number)
+//{
+//	result+++
+//	System.Console.WriteLine(result);
+//} 

@@ -12,7 +12,11 @@ int Prompt(string message)
 
 int value = Prompt ("Введите число ");
 int a = value% 2; 
-if (a > 0) 
+if (a < 0 )  
+{
+	System.Console.WriteLine ($"Число {value} нечетное");
+}
+if (a > 0 )  
 {
 	System.Console.WriteLine ($"Число {value} нечетное");
 }
