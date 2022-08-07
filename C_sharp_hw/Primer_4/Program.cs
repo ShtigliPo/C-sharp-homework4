@@ -10,20 +10,10 @@ int Prompt(string message)
     	return result;                          // Возвращает результат
 }
 
-int N;
-N = Prompt ("Введите число ");
- 
- for (int i = N; i <= N; i++)
+int N = Prompt("Введите число ");
+int value = 2;
+while (value <= N) 
 {
-    System.Console.WriteLine(i);
+    System.Console.WriteLine($"{value} ");
+    value += 2;
 }
-
-//System.Console.WriteLine("Введите число ");
-//string Value = Console.ReadLine();
-//int number = int.Parse (value);
-//int result = -(number + 1);
-//while (result !-number)
-//{
-//	result+++
-//	System.Console.WriteLine(result);
-//} 
