@@ -10,6 +10,7 @@ int Prompt(string message)
     	return result;                          // Возвращает результат
 }
 
+
 int N = Prompt("Введите число ");
 int value = 2;
 while (value <= N) 
