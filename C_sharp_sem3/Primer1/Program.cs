@@ -10,7 +10,7 @@ int Prompt(string message)
 }
 
 
-int GetQurter(int x, int y)
+int GetQuarter(int x, int y)
 {
     if (x > 0 && y > 0)
     {
@@ -35,5 +35,5 @@ if (x == 0 || y == 0)
     System.Console.WriteLine("Невозможно вычислить четверть, точка на оси");
     return;
 }
-int quarter = GetQurter(x, y);
+int quarter = GetQuarter(x, y);
 System.Console.WriteLine(quarter);
